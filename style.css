@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    background: linear-gradient(to bottom right, blue, pink);
+    height: 100dvh;
+    margin: 0;
+  }
+
+
+header{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+.photo{
+    width: 200px;
+    border: 5px solid black;
+}
+
+.text{
+    width: 500px;
+}
+.text h1{
+    margin: 0;
+    font-size: 48px;
+}
+
+.text h2{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.text h3{
+    display: flex;
+    justify-content:end;
+    font-size: 32px;
+}
+
+details{
+    border: 2px solid black;
+    border-radius: 60px;
+    font-size: 24px;
+    width: 400px;
+    margin: auto;
+    height: 28px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+li, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.bubls{
+    position: absolute;
+    z-index: -1;
+}
+
+#bubls2{
+    margin-right: 0;
+}
+
+main{
+    display: flex;
+    gap: 30px;
+    max-width: 900px;
+    height: auto;
+    margin: auto;
+}
